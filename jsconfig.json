@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "jsx": "react-jsx",
+        "moduleResolution": "bundler"
+    },
+    "include": [
+        "src"
+    ]
+}
