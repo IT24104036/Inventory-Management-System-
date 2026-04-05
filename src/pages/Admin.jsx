@@ -4,6 +4,7 @@ import { AnimatePresence, motion as Motion } from "framer-motion";
 import AdminLayout from "@/components/admin/AdminLayout";
 import { getAdminPageTitle } from "@/components/admin/adminPageTitle";
 
+const SalesModule = lazy(() => import("@/components/sales/SalesContainer"));
 const AdminDashboardHome = lazy(() => import("@/components/admin/AdminDashboardHome"));
 const AdminUserControl = lazy(() => import("@/components/admin/users/AdminUserControl"));
 
@@ -38,6 +39,8 @@ const Admin = () => {
           <Suspense fallback={<PageFallback />}>
             {location.pathname === "/admin/users" ? (
               <AdminUserControl users={users} setUsers={setUsers} />
+            ) : location.pathname === "/admin/sales" ? (
+              <SalesModule role="Admin" canManageSales />
             ) : (
               <AdminDashboardHome />
             )}

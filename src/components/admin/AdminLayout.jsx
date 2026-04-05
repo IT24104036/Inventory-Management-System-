@@ -2,6 +2,7 @@ import { Suspense, lazy } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { AnimatePresence, motion as Motion } from "framer-motion";
 import {
+  BarChart3,
   LayoutDashboard,
   Menu,
   Users,
@@ -11,6 +12,7 @@ import { Button } from "@/components/ui/button";
 
 const NAV_ITEMS = [
   { label: "Dashboard", href: "/admin", icon: LayoutDashboard },
+  { label: "Sales Management", href: "/admin/sales", icon: BarChart3 },
   { label: "User Control", href: "/admin/users", icon: Users },
 ];
 

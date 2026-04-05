@@ -11,6 +11,7 @@ const queryClient = new QueryClient();
 const Index = lazy(() => import("./pages/Index"));
 const Login = lazy(() => import("./pages/Login"));
 const Admin = lazy(() => import("./pages/Admin"));
+const Staff = lazy(() => import("./pages/Staff"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const ForgotPassword = lazy(() => import("./pages/ForgotPassword"));
 
@@ -47,6 +48,7 @@ const App = () => (<QueryClientProvider client={queryClient}>
             <Route path="/" element={<Index />}/>
             <Route path="/login" element={<GuestRoute element={<Login />} />}/>
             <Route path="/admin/*" element={<ProtectedRoute element={<Admin />} requiredRole="ADMIN" />}/>
+            <Route path="/staff/*" element={<ProtectedRoute element={<Staff />} />}/>
             <Route path="/forgot-password" element={<GuestRoute element={<ForgotPassword />} />}/>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />}/>
