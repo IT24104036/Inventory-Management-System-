@@ -1,0 +1,185 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo.
+        - generic [ref=e12]:
+          - generic [ref=e13]: AD
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: Owner View
+            - paragraph [ref=e16]: "Status: Active"
+        - navigation [ref=e17]:
+          - link "Dashboard" [ref=e18] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e19]
+            - generic [ref=e24]: Dashboard
+          - link "Product Management" [ref=e25] [cursor=pointer]:
+            - /url: /admin/products
+            - img [ref=e26]
+            - generic [ref=e30]: Product Management
+          - link "Inventory Tracking" [ref=e31] [cursor=pointer]:
+            - /url: /admin/inventory
+            - img [ref=e32]
+            - generic [ref=e35]: Inventory Tracking
+          - link "Sales Management" [ref=e36] [cursor=pointer]:
+            - /url: /admin/sales
+            - img [ref=e37]
+            - generic [ref=e39]: Sales Management
+          - link "Discounts & Alerts" [ref=e40] [cursor=pointer]:
+            - /url: /admin/alerts
+            - img [ref=e41]
+            - generic [ref=e43]: Discounts & Alerts
+          - link "Reports Analytics" [ref=e44] [cursor=pointer]:
+            - /url: /admin/reports
+            - img [ref=e45]
+            - generic [ref=e48]: Reports Analytics
+          - link "User Control" [ref=e49] [cursor=pointer]:
+            - /url: /admin/users
+            - img [ref=e50]
+            - generic [ref=e55]: User Control
+        - button "Log Out Session" [ref=e58] [cursor=pointer]:
+          - img [ref=e59]
+          - text: Log Out Session
+    - generic [ref=e63]:
+      - generic:
+        - img
+      - generic [ref=e64]:
+        - banner [ref=e65]:
+          - heading "User Control" [level=1] [ref=e67]
+        - main [ref=e68]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - tablist [ref=e74]:
+                - tab "Staff Governance" [active] [selected] [ref=e75] [cursor=pointer]
+                - tab "Security & Activity" [ref=e76] [cursor=pointer]
+                - tab "Role Permissions" [ref=e77] [cursor=pointer]
+              - button "Onboard New Staff" [ref=e79] [cursor=pointer]
+            - tabpanel "Staff Governance" [ref=e80]:
+              - generic [ref=e1890]:
+                - generic [ref=e1891]:
+                  - generic [ref=e1892]:
+                    - generic [ref=e1893]:
+                      - img [ref=e1894]
+                      - textbox "Search by name or username..." [ref=e1897]
+                    - combobox [ref=e1898]:
+                      - option "All Roles" [selected]
+                      - option "Store Manager"
+                      - option "Assistant Manager"
+                      - option "Senior Cashier"
+                      - option "Cashier"
+                      - option "Warehouse Staff"
+                      - option "Shelf Stocker"
+                      - option "General Staff"
+                      - option "System Administrator"
+                      - option "Sub Admin"
+                  - generic [ref=e1899]:
+                    - generic [ref=e1900]:
+                      - generic [ref=e1901]: DOJ From
+                      - textbox [ref=e1902]
+                    - generic [ref=e1903]:
+                      - generic [ref=e1904]: DOJ To
+                      - textbox [ref=e1905]
+                - table [ref=e1909]:
+                  - rowgroup [ref=e1910]:
+                    - row "Identity Role Entry Date Network Access" [ref=e1911]:
+                      - columnheader "Identity" [ref=e1912] [cursor=pointer]:
+                        - generic [ref=e1913]:
+                          - text: Identity
+                          - img [ref=e1914]
+                      - columnheader "Role" [ref=e1916] [cursor=pointer]:
+                        - generic [ref=e1917]:
+                          - text: Role
+                          - img [ref=e1918]
+                      - columnheader "Entry Date" [ref=e1921] [cursor=pointer]:
+                        - generic [ref=e1922]:
+                          - text: Entry Date
+                          - img [ref=e1923]
+                      - columnheader "Network Access" [ref=e1926]
+                  - rowgroup [ref=e1927]:
+                    - row "DSM Demo Staff Member @staff Cashier Apr 1, 2026" [ref=e1928]:
+                      - cell "DSM Demo Staff Member @staff" [ref=e1929]:
+                        - generic [ref=e1930]: DSM
+                        - generic [ref=e1931]:
+                          - paragraph [ref=e1932]: Demo Staff Member
+                          - paragraph [ref=e1933]: "@staff"
+                      - cell "Cashier" [ref=e1934]:
+                        - generic [ref=e1935]: Cashier
+                      - cell "Apr 1, 2026" [ref=e1936]
+                      - cell [ref=e1937]:
+                        - generic [ref=e1938]:
+                          - button "Edit staff member" [ref=e1939] [cursor=pointer]:
+                            - img
+                          - button [ref=e1940] [cursor=pointer]:
+                            - img
+                    - row "HR Hamna Rizve @Hamna Cashier Apr 1, 2026" [ref=e1941]:
+                      - cell "HR Hamna Rizve @Hamna" [ref=e1942]:
+                        - generic [ref=e1943]: HR
+                        - generic [ref=e1944]:
+                          - paragraph [ref=e1945]: Hamna Rizve
+                          - paragraph [ref=e1946]: "@Hamna"
+                      - cell "Cashier" [ref=e1947]:
+                        - generic [ref=e1948]: Cashier
+                      - cell "Apr 1, 2026" [ref=e1949]
+                      - cell [ref=e1950]:
+                        - generic [ref=e1951]:
+                          - button "Edit staff member" [ref=e1952] [cursor=pointer]:
+                            - img
+                          - button [ref=e1953] [cursor=pointer]:
+                            - img
+                    - row "MMR Mr. Mohamed Rizwan @@cashier2 Cashier Mar 18, 2026" [ref=e1954]:
+                      - cell "MMR Mr. Mohamed Rizwan @@cashier2" [ref=e1955]:
+                        - generic [ref=e1956]: MMR
+                        - generic [ref=e1957]:
+                          - paragraph [ref=e1958]: Mr. Mohamed Rizwan
+                          - paragraph [ref=e1959]: "@@cashier2"
+                      - cell "Cashier" [ref=e1960]:
+                        - generic [ref=e1961]: Cashier
+                      - cell "Mar 18, 2026" [ref=e1962]
+                      - cell [ref=e1963]:
+                        - generic [ref=e1964]:
+                          - button "Edit staff member" [ref=e1965] [cursor=pointer]:
+                            - img
+                          - button [ref=e1966] [cursor=pointer]:
+                            - img
+                    - row "MRP Mr. Ruwan Perera @@admin System Administrator Mar 1, 2026" [ref=e1967]:
+                      - cell "MRP Mr. Ruwan Perera @@admin" [ref=e1968]:
+                        - generic [ref=e1969]: MRP
+                        - generic [ref=e1970]:
+                          - paragraph [ref=e1971]: Mr. Ruwan Perera
+                          - paragraph [ref=e1972]: "@@admin"
+                      - cell "System Administrator" [ref=e1973]:
+                        - generic [ref=e1974]: System Administrator
+                      - cell "Mar 1, 2026" [ref=e1975]
+                      - cell [ref=e1976]
+                    - row "S Sub @Subadmin Sub Admin Apr 1, 2026" [ref=e1977]:
+                      - cell "S Sub @Subadmin" [ref=e1978]:
+                        - generic [ref=e1979]: S
+                        - generic [ref=e1980]:
+                          - paragraph [ref=e1981]: Sub
+                          - paragraph [ref=e1982]: "@Subadmin"
+                      - cell "Sub Admin" [ref=e1983]:
+                        - generic [ref=e1984]: Sub Admin
+                      - cell "Apr 1, 2026" [ref=e1985]
+                      - cell [ref=e1986]:
+                        - generic [ref=e1987]:
+                          - button "Edit staff member" [ref=e1988] [cursor=pointer]:
+                            - img
+                          - button [ref=e1989] [cursor=pointer]:
+                            - img
+                    - row "SA System Administrator @admin System Administrator Apr 1, 2026" [ref=e1990]:
+                      - cell "SA System Administrator @admin" [ref=e1991]:
+                        - generic [ref=e1992]: SA
+                        - generic [ref=e1993]:
+                          - paragraph [ref=e1994]: System Administrator
+                          - paragraph [ref=e1995]: "@admin"
+                      - cell "System Administrator" [ref=e1996]:
+                        - generic [ref=e1997]: System Administrator
+                      - cell "Apr 1, 2026" [ref=e1998]
+                      - cell [ref=e1999]:
+                        - button "Change your password" [ref=e2001] [cursor=pointer]:
+                          - img

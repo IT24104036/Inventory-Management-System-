@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo.
+        - generic [ref=e12]:
+          - generic [ref=e13]: DE
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: Demo Staff Member
+            - paragraph [ref=e16]: Cashier
+        - navigation [ref=e17]:
+          - link "Staff Desk" [ref=e18] [cursor=pointer]:
+            - /url: /staff
+            - img [ref=e19]
+            - generic [ref=e24]: Staff Desk
+          - link "Product Management" [ref=e25] [cursor=pointer]:
+            - /url: /staff/products
+            - img [ref=e26]
+            - generic [ref=e30]: Product Management
+          - link "Inventory Tracking" [ref=e32] [cursor=pointer]:
+            - /url: /staff/inventory
+            - img [ref=e33]
+            - generic [ref=e36]: Inventory Tracking
+          - link "Sales Recording" [ref=e37] [cursor=pointer]:
+            - /url: /staff/sales
+            - img [ref=e38]
+            - generic [ref=e42]: Sales Recording
+          - link "Discounts & Alerts" [ref=e43] [cursor=pointer]:
+            - /url: /staff/alerts
+            - img [ref=e44]
+            - generic [ref=e47]: Discounts & Alerts
+          - link "Reports & Analytics" [ref=e48] [cursor=pointer]:
+            - /url: /staff/reports
+            - img [ref=e49]
+            - generic [ref=e51]: Reports & Analytics
+          - link "My Profile" [ref=e52] [cursor=pointer]:
+            - /url: /staff/profile
+            - img [ref=e53]
+            - generic [ref=e57]: My Profile
+        - button "Log Out Session" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Log Out Session
+    - generic [ref=e64]:
+      - generic:
+        - img
+      - generic [ref=e65]:
+        - banner [ref=e66]:
+          - heading "Product Management" [level=1] [ref=e68]
+        - main [ref=e69]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - img [ref=e76]
+                - paragraph [ref=e80]: Total Products
+                - heading "0" [level=3] [ref=e81]
+                - paragraph [ref=e82]: In master catalog
+              - generic [ref=e83]:
+                - img [ref=e85]
+                - paragraph [ref=e89]: Categories
+                - heading "0" [level=3] [ref=e90]
+                - paragraph [ref=e91]: Active categories
+              - generic [ref=e92]:
+                - img [ref=e94]
+                - paragraph [ref=e98]: Avg. Margin
+                - heading "0.0%" [level=3] [ref=e99]
+                - paragraph [ref=e100]: Cost vs. selling price
+            - generic [ref=e102]:
+              - generic [ref=e104]:
+                - heading "Product Catalog" [level=3] [ref=e105]
+                - paragraph [ref=e106]: 0 products found
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - img [ref=e109]
+                  - textbox "Search by name, supplier, or category..." [ref=e112]
+                - combobox [ref=e113]:
+                  - option "All Categories" [selected]
+                  - option "Dairy"
+                  - option "Bakery"
+                  - option "Beverages"
+                  - option "Frozen Foods"
+                  - option "Snacks"
+                  - option "Produce"
+                  - option "Meat & Seafood"
+                  - option "Canned Goods"
+                  - option "Personal Care"
+                  - option "Household"
+                  - option "Other"

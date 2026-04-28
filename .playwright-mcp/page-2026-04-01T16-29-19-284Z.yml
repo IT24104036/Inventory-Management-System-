@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo.
+        - generic [ref=e12]:
+          - generic [ref=e13]: DE
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: Demo Staff Member
+            - paragraph [ref=e16]: Cashier
+        - navigation [ref=e17]:
+          - link "Staff Desk" [ref=e18] [cursor=pointer]:
+            - /url: /staff
+            - img [ref=e19]
+            - generic [ref=e24]: Staff Desk
+          - link "Product Management" [ref=e26] [cursor=pointer]:
+            - /url: /staff/products
+            - img [ref=e27]
+            - generic [ref=e31]: Product Management
+          - link "Inventory Tracking" [ref=e32] [cursor=pointer]:
+            - /url: /staff/inventory
+            - img [ref=e33]
+            - generic [ref=e36]: Inventory Tracking
+          - link "Sales Recording" [ref=e37] [cursor=pointer]:
+            - /url: /staff/sales
+            - img [ref=e38]
+            - generic [ref=e42]: Sales Recording
+          - link "Discounts & Alerts" [ref=e43] [cursor=pointer]:
+            - /url: /staff/alerts
+            - img [ref=e44]
+            - generic [ref=e47]: Discounts & Alerts
+          - link "Reports & Analytics" [ref=e48] [cursor=pointer]:
+            - /url: /staff/reports
+            - img [ref=e49]
+            - generic [ref=e51]: Reports & Analytics
+          - link "My Profile" [ref=e52] [cursor=pointer]:
+            - /url: /staff/profile
+            - img [ref=e53]
+            - generic [ref=e57]: My Profile
+        - button "Log Out Session" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Log Out Session
+    - generic [ref=e64]:
+      - generic:
+        - img
+      - generic [ref=e65]:
+        - banner [ref=e66]:
+          - heading "Staff Desk" [level=1] [ref=e68]
+        - main [ref=e69]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - img [ref=e76]
+                - paragraph [ref=e79]: Tasks Done
+                - heading "24" [level=3] [ref=e80]
+                - paragraph [ref=e81]: 8 pending
+              - generic [ref=e82]:
+                - img [ref=e84]
+                - paragraph [ref=e87]: High Risk Items
+                - heading "12" [level=3] [ref=e88]
+                - paragraph [ref=e89]: Scan required
+              - generic [ref=e90]:
+                - img [ref=e92]
+                - paragraph [ref=e94]: Efficiency
+                - heading "96%" [level=3] [ref=e95]
+                - paragraph [ref=e96]: Top performer
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]:
+                  - heading "Shift Priorities" [level=2] [ref=e102]
+                  - paragraph [ref=e103]:
+                    - img [ref=e104]
+                    - text: Hand-picked by AI engine
+                - img [ref=e107]
+              - generic [ref=e110]:
+                - generic [ref=e111] [cursor=pointer]:
+                  - img [ref=e113]
+                  - generic [ref=e116]: Scan Batch FM-102 (Milk) for accurate level detection
+                  - img [ref=e117]
+                - generic [ref=e119] [cursor=pointer]:
+                  - img [ref=e121]
+                  - generic [ref=e124]: Prioritize restocking front-end display for Yogurt Plain
+                  - img [ref=e125]
+                - generic [ref=e127] [cursor=pointer]:
+                  - img [ref=e129]
+                  - generic [ref=e132]: Mark FM-209 as 'Promoted' in system
+                  - img [ref=e133]

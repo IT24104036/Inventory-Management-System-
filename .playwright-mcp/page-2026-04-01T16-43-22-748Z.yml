@@ -1,0 +1,277 @@
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - complementary:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+            - generic: Invigo.
+          - generic:
+            - generic:
+              - generic: AD
+              - generic:
+                - paragraph: Owner View
+                - paragraph: "Status: Active"
+          - navigation:
+            - link:
+              - /url: /admin
+              - img
+              - generic: Dashboard
+            - link:
+              - /url: /admin/products
+              - img
+              - generic: Product Management
+            - link:
+              - /url: /admin/inventory
+              - img
+              - generic: Inventory Tracking
+            - link:
+              - /url: /admin/sales
+              - img
+              - generic: Sales Management
+            - link:
+              - /url: /admin/alerts
+              - img
+              - generic: Discounts & Alerts
+            - link:
+              - /url: /admin/reports
+              - img
+              - generic: Reports Analytics
+            - link:
+              - /url: /admin/users
+              - img
+              - generic: User Control
+          - generic:
+            - button:
+              - img
+              - text: Log Out Session
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - banner:
+              - generic:
+                - heading [level=1]: User Control
+            - main:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - tablist:
+                          - tab: Staff Governance
+                          - tab: Security & Activity
+                          - tab [selected]: Role Permissions
+                        - generic:
+                          - button: Onboard New Staff
+                      - tabpanel:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading [level=2]: All Roles
+                              - button:
+                                - img
+                                - text: Create New Role
+                            - generic:
+                              - img
+                              - textbox:
+                                - /placeholder: Search roles...
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - table:
+                                    - rowgroup:
+                                      - row:
+                                        - columnheader: Role Name
+                                        - columnheader: Description
+                                        - columnheader: Users Assigned
+                                        - columnheader: Last Modified
+                                        - columnheader: Actions
+                                    - rowgroup:
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Store Manager
+                                        - cell: Store Manager
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Mar 26, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Assistant Manager
+                                        - cell: Assistant Manager
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Mar 26, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Senior Cashier
+                                        - cell: Assistant Manager
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Apr 1, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Cashier
+                                        - cell: Warehouse Staff
+                                        - cell:
+                                          - generic: 3 users
+                                        - cell: Apr 1, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Warehouse Staff
+                                        - cell: Warehouse Staff
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Mar 26, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Shelf Stocker
+                                        - cell: Warehouse Staff
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Mar 26, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: General Staff
+                                        - cell: Low (Limited)
+                                        - cell:
+                                          - generic: 0 users
+                                        - cell: Apr 1, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: System Administrator
+                                        - cell: Owner / Full Access
+                                        - cell:
+                                          - generic: 2 users
+                                        - cell: Apr 1, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic: Sub Admin
+                                        - cell: Sub Admins
+                                        - cell:
+                                          - generic: 1 user
+                                        - cell: Apr 1, 2026
+                                        - cell:
+                                          - generic:
+                                            - button: Edit
+                                            - button:
+                                              - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - paragraph: Edit Role Permissions
+                                    - heading [level=3]: Sub Admin
+                                  - button:
+                                    - img
+                                - generic:
+                                  - button:
+                                    - generic: Product Management
+                                  - button:
+                                    - generic: Inventory Tracking
+                                  - button:
+                                    - generic: Sales Management
+                                  - button:
+                                    - generic:
+                                      - img
+                                    - generic: Discounts & Alerts
+                                  - button:
+                                    - generic: Reports & Analytics
+                                  - button:
+                                    - generic: User Control
+                                - button: Save Changes
+  - dialog "Create New Role" [ref=e1868]:
+    - generic [ref=e1869]:
+      - generic [ref=e1870]:
+        - heading "Create New Role" [level=2] [ref=e1871]
+        - paragraph [ref=e1872]: Define a custom role for your team
+      - generic [ref=e1873]:
+        - generic [ref=e1874]:
+          - text: Role Name
+          - textbox "e.g. Night Supervisor" [active] [ref=e1875]
+        - generic [ref=e1876]:
+          - text: Role Type
+          - generic [ref=e1877]:
+            - button "👷 Staff" [ref=e1878] [cursor=pointer]
+            - button "🛡️ Sub Admin" [ref=e1879] [cursor=pointer]
+            - button "👑 Admin" [ref=e1880] [cursor=pointer]
+        - generic [ref=e1881]:
+          - text: Description
+          - textbox "Brief description of responsibilities" [ref=e1882]
+        - button "Create Role" [ref=e1884] [cursor=pointer]
+    - button "Close" [ref=e1885] [cursor=pointer]:
+      - img [ref=e1886]
+      - generic [ref=e1889]: Close

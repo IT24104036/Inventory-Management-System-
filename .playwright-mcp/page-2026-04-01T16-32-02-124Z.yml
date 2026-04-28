@@ -1,0 +1,51 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Invigo Logo Invigo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - text: Secure Recovery
+          - heading "Account Recovery" [level=2] [ref=e15]:
+            - text: Account
+            - text: Recovery
+          - paragraph [ref=e16]: We'll send a one-time code to your registered email to verify your identity and reset your password securely.
+      - generic [ref=e17]:
+        - img [ref=e54]
+        - generic [ref=e22]: "2"
+        - generic [ref=e25]: "3"
+        - generic [ref=e28]: "4"
+    - generic [ref=e30]:
+      - generic [ref=e57]:
+        - heading "Verify OTP" [level=1] [ref=e58]
+        - paragraph [ref=e59]: Enter the 6-digit code sent to nonexistent@fake.com
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - textbox [ref=e62]
+          - textbox [ref=e63]
+          - textbox [ref=e64]
+          - textbox [ref=e65]
+          - textbox [ref=e66]
+          - textbox [ref=e67]
+        - button "Verify Code" [disabled]:
+          - text: Verify Code
+          - img
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Didn't receive the code?
+          - button "Resend in 59 s" [disabled] [ref=e70]:
+            - img [ref=e71]
+            - generic [ref=e76]:
+              - text: Resend in
+              - generic [ref=e77]: "59"
+              - text: s
+        - button "Change email" [ref=e79] [cursor=pointer]:
+          - img [ref=e80]
+          - text: Change email
+      - paragraph [ref=e50]: Powered by Invigo Gen3 Analytics

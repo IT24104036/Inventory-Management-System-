@@ -1,0 +1,200 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e4]:
+    - navigation:
+      - generic [ref=e6]:
+        - link "Invigo Logo Invigo." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Invigo Logo" [ref=e10]
+          - generic [ref=e11]: Invigo.
+        - generic [ref=e12]:
+          - link "Features" [ref=e13] [cursor=pointer]:
+            - /url: "#features"
+            - text: Features
+          - link "How it Works" [ref=e14] [cursor=pointer]:
+            - /url: "#how-it-works"
+            - text: How it Works
+          - link "Login" [ref=e15] [cursor=pointer]:
+            - /url: /login
+            - text: Login
+            - img [ref=e16]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img [ref=e22]
+          - text: Smart Inventory AI
+        - heading "Stop Expiry Start Scaling" [level=1] [ref=e24]:
+          - text: Stop Expiry
+          - text: Start Scaling
+        - paragraph [ref=e25]: Invigo uses high-performance analytics to predict risks, auto-discount stock, and protect your profits with zero effort.
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: Built for
+            - generic [ref=e29]: Small Grocery Stores
+          - generic [ref=e31]:
+            - generic [ref=e32]: 75%
+            - generic [ref=e33]: Waste Reduced
+      - generic [ref=e35]:
+        - img "Supermarket Environment" [ref=e36]
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - generic [ref=e41]:
+            - paragraph [ref=e42]: Live Analysis
+            - paragraph [ref=e43]: Real-time Pulse
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - generic [ref=e49]:
+            - paragraph [ref=e50]: Protection
+            - paragraph [ref=e51]: Zero Waste Guard
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]: The Industry Crisis
+        - heading "Retail is Bleeding Money Every Single Day." [level=2] [ref=e59]:
+          - text: Retail is Bleeding Money
+          - text: Every Single Day.
+        - paragraph [ref=e60]: Small stores lose billions globally due to archaic tracking. Invigo was built to stop the leak and turn your inventory into an engine for growth.
+        - generic [ref=e63]: Invigo Gen3 is monitoring retail stores.
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - img [ref=e68]
+          - generic [ref=e72]:
+            - heading "The Expiry Leak" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Up to 30% of perishables vanish before sale. It's not just waste; it's lost capital every single day.
+        - generic [ref=e75]:
+          - img [ref=e78]
+          - generic [ref=e81]:
+            - heading "Inventory Blindness" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Ordering by 'gut feeling' leads to dead stock or empty shelves. Scaling becomes impossible without data.
+        - generic [ref=e84]:
+          - img [ref=e87]
+          - generic [ref=e90]:
+            - heading "The Digital Divide AI Powered" [level=3] [ref=e91]:
+              - text: The Digital Divide
+              - generic [ref=e92]: AI Powered
+            - paragraph [ref=e93]: Outdated systems create barriers between you and your customers. Bridging the gap with smart technology is the key to staying competitive.
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - heading "Everything you need to run a smarter store" [level=2] [ref=e97]
+        - paragraph [ref=e98]: Six powerful features designed specifically for small grocery store owners.
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - heading "Product Management" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Add, categorize, and manage all your products with barcode scanning and batch tracking.
+        - generic [ref=e108]:
+          - img [ref=e110]
+          - heading "Inventory & Expiry Tracking" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Real-time stock levels with automatic expiry date monitoring and FIFO tracking.
+        - generic [ref=e116]:
+          - img [ref=e118]
+          - heading "Sales Recording" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Quick POS-style sales entry with daily summaries and product-level tracking.
+        - generic [ref=e124]:
+          - img [ref=e126]
+          - heading "Discount & Alerts" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Smart alerts for approaching expiry dates with automated discount suggestions.
+        - generic [ref=e132]:
+          - img [ref=e134]
+          - heading "Reports & Dashboard" [level=3] [ref=e136]
+          - paragraph [ref=e137]: Beautiful analytics dashboard with waste reports, sales trends, and stock insights.
+        - generic [ref=e138]:
+          - generic [ref=e139]: Powered by AI
+          - img [ref=e141]
+          - heading "Predictive Modeling of Inventory Sell-Through using Sales Behavior Patterns" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Machine learning model predicts which products are most likely to expire unsold.
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - heading "Predictive Modeling of Inventory Sell- Through Using Sales Behavior Patterns" [level=2] [ref=e158]:
+          - text: Predictive Modeling of Inventory Sell-
+          - text: Through Using Sales Behavior Patterns
+        - paragraph [ref=e159]: Our machine learning model analyzes your sales patterns, stock levels, and expiry dates to predict risk — so you can act before it's too late.
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - img [ref=e164]
+            - paragraph [ref=e168]: Sales Data + Stock + Expiry Dates
+          - img [ref=e172]
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - img [ref=e177]
+            - paragraph [ref=e189]: Predictive Modeling of Inventory Sell-Through using Sales Behavior Patterns
+            - generic [ref=e190]: AI Powered
+          - img [ref=e194]
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - img [ref=e199]
+            - paragraph [ref=e202]: Risk Score Analysis
+          - img [ref=e206]
+        - generic [ref=e209]:
+          - img [ref=e211]
+          - paragraph [ref=e216]: Smart Alerts & Discounts
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - heading "Proactive Results You Can Expect" [level=2] [ref=e220]
+        - paragraph [ref=e221]: Our ML model learns your store's sales patterns to predict sell-through probability before expiry — helping you reduce waste and protect profits proactively.
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - img [ref=e226]
+          - heading "68%" [level=3] [ref=e229]
+          - paragraph [ref=e230]: Less Food Waste
+          - paragraph [ref=e231]: Average waste reduction across stores
+        - generic [ref=e232]:
+          - img [ref=e235]
+          - heading "45%" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Faster Decisions
+          - paragraph [ref=e239]: Quicker stock management with AI insights
+        - generic [ref=e240]:
+          - img [ref=e243]
+          - heading "Rs120K+" [level=3] [ref=e245]
+          - paragraph [ref=e246]: Monthly Savings
+          - paragraph [ref=e247]: Average savings for small grocery stores
+        - generic [ref=e248]:
+          - img [ref=e251]
+          - heading "92%" [level=3] [ref=e254]
+          - paragraph [ref=e255]: Prediction Accuracy
+          - paragraph [ref=e256]: ML learns sales patterns to predict sell-through before expiry
+    - generic [ref=e259]:
+      - generic [ref=e261]:
+        - img [ref=e262]
+        - generic [ref=e264]: Unlock Peak Efficiency
+      - heading "Ready to make your grocery store smarter and more profitable?" [level=2] [ref=e265]
+      - paragraph [ref=e266]: Join the elite circle of retailers transforming waste into wealth with Invigo Gen3 AI.
+      - button "Log In to Dashboard" [ref=e268] [cursor=pointer]:
+        - text: Log In to Dashboard
+        - img [ref=e269]
+    - contentinfo [ref=e271]:
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - link "Invigo Logo Invigo." [ref=e274] [cursor=pointer]:
+            - /url: /
+            - img "Invigo Logo" [ref=e277]
+            - generic [ref=e278]: Invigo.
+          - generic [ref=e279]:
+            - link "Features" [ref=e280] [cursor=pointer]:
+              - /url: "#features"
+            - link "How it Works" [ref=e281] [cursor=pointer]:
+              - /url: "#how-it-works"
+            - link "Security" [ref=e282] [cursor=pointer]:
+              - /url: "#security"
+            - link "Privacy" [ref=e283] [cursor=pointer]:
+              - /url: "#privacy"
+          - generic [ref=e284]:
+            - link [ref=e285] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e286]
+            - link [ref=e288] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e289]
+            - link [ref=e291] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e292]
+            - link [ref=e295] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e296]
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: © 2026 Invigo AI. All Rights Reserved.
+          - generic [ref=e302]:
+            - generic [ref=e303]: Powered by Gen3 AI
+            - generic [ref=e304]: Batch Tracking Active

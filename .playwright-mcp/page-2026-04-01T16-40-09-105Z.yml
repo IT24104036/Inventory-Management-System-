@@ -1,0 +1,229 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo.
+        - generic [ref=e12]:
+          - generic [ref=e13]: AD
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: Owner View
+            - paragraph [ref=e16]: "Status: Active"
+        - navigation [ref=e17]:
+          - link "Dashboard" [ref=e18] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e19]
+            - generic [ref=e24]: Dashboard
+          - link "Product Management" [ref=e25] [cursor=pointer]:
+            - /url: /admin/products
+            - img [ref=e26]
+            - generic [ref=e30]: Product Management
+          - link "Inventory Tracking" [ref=e31] [cursor=pointer]:
+            - /url: /admin/inventory
+            - img [ref=e32]
+            - generic [ref=e35]: Inventory Tracking
+          - link "Sales Management" [ref=e36] [cursor=pointer]:
+            - /url: /admin/sales
+            - img [ref=e37]
+            - generic [ref=e39]: Sales Management
+          - link "Discounts & Alerts" [ref=e40] [cursor=pointer]:
+            - /url: /admin/alerts
+            - img [ref=e41]
+            - generic [ref=e43]: Discounts & Alerts
+          - link "Reports Analytics" [ref=e44] [cursor=pointer]:
+            - /url: /admin/reports
+            - img [ref=e45]
+            - generic [ref=e48]: Reports Analytics
+          - link "User Control" [ref=e49] [cursor=pointer]:
+            - /url: /admin/users
+            - img [ref=e50]
+            - generic [ref=e55]: User Control
+        - button "Log Out Session" [ref=e58] [cursor=pointer]:
+          - img [ref=e59]
+          - text: Log Out Session
+    - generic [ref=e63]:
+      - generic:
+        - img
+      - generic [ref=e64]:
+        - banner [ref=e65]:
+          - heading "User Control" [level=1] [ref=e67]
+        - main [ref=e68]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - tablist [ref=e74]:
+                - tab "Staff Governance" [ref=e75] [cursor=pointer]
+                - tab "Security & Activity" [ref=e76] [cursor=pointer]
+                - tab "Role Permissions" [selected] [ref=e77] [cursor=pointer]
+              - button "Onboard New Staff" [ref=e79] [cursor=pointer]
+            - tabpanel "Role Permissions" [ref=e1676]:
+              - generic [ref=e1677]:
+                - generic [ref=e1678]:
+                  - generic [ref=e1679]:
+                    - heading "All Roles" [level=2] [ref=e1680]
+                    - button "Create New Role" [ref=e1681] [cursor=pointer]:
+                      - img
+                      - text: Create New Role
+                  - generic [ref=e1682]:
+                    - img [ref=e1683]
+                    - textbox "Search roles..." [ref=e1686]
+                  - table [ref=e1690]:
+                    - rowgroup [ref=e1691]:
+                      - row "Role Name Description Users Assigned Last Modified Actions" [ref=e1692]:
+                        - columnheader "Role Name" [ref=e1693]
+                        - columnheader "Description" [ref=e1694]
+                        - columnheader "Users Assigned" [ref=e1695]
+                        - columnheader "Last Modified" [ref=e1696]
+                        - columnheader "Actions" [ref=e1697]
+                    - rowgroup [ref=e1698]:
+                      - row "Store Manager Store Manager 0 users Mar 26, 2026 Edit" [ref=e1699] [cursor=pointer]:
+                        - cell "Store Manager" [ref=e1700]:
+                          - generic [ref=e1701]:
+                            - img [ref=e1703]
+                            - generic [ref=e1705]: Store Manager
+                        - cell "Store Manager" [ref=e1706]
+                        - cell "0 users" [ref=e1707]:
+                          - generic [ref=e1708]: 0 users
+                        - cell "Mar 26, 2026" [ref=e1709]
+                        - cell "Edit" [ref=e1710]:
+                          - generic [ref=e1711]:
+                            - button "Edit" [ref=e1712]
+                            - button [ref=e1713]:
+                              - img
+                      - row "Assistant Manager Assistant Manager 0 users Mar 26, 2026 Edit" [ref=e1714] [cursor=pointer]:
+                        - cell "Assistant Manager" [ref=e1715]:
+                          - generic [ref=e1716]:
+                            - img [ref=e1718]
+                            - generic [ref=e1720]: Assistant Manager
+                        - cell "Assistant Manager" [ref=e1721]
+                        - cell "0 users" [ref=e1722]:
+                          - generic [ref=e1723]: 0 users
+                        - cell "Mar 26, 2026" [ref=e1724]
+                        - cell "Edit" [ref=e1725]:
+                          - generic [ref=e1726]:
+                            - button "Edit" [ref=e1727]
+                            - button [ref=e1728]:
+                              - img
+                      - row "Senior Cashier Assistant Manager 0 users Apr 1, 2026 Edit" [ref=e1729] [cursor=pointer]:
+                        - cell "Senior Cashier" [ref=e1730]:
+                          - generic [ref=e1731]:
+                            - img [ref=e1733]
+                            - generic [ref=e1735]: Senior Cashier
+                        - cell "Assistant Manager" [ref=e1736]
+                        - cell "0 users" [ref=e1737]:
+                          - generic [ref=e1738]: 0 users
+                        - cell "Apr 1, 2026" [ref=e1739]
+                        - cell "Edit" [ref=e1740]:
+                          - generic [ref=e1741]:
+                            - button "Edit" [ref=e1742]
+                            - button [ref=e1743]:
+                              - img
+                      - row "Cashier Warehouse Staff 3 users Apr 1, 2026 Edit" [ref=e1744] [cursor=pointer]:
+                        - cell "Cashier" [ref=e1745]:
+                          - generic [ref=e1746]:
+                            - img [ref=e1748]
+                            - generic [ref=e1750]: Cashier
+                        - cell "Warehouse Staff" [ref=e1751]
+                        - cell "3 users" [ref=e1752]:
+                          - generic [ref=e1753]: 3 users
+                        - cell "Apr 1, 2026" [ref=e1754]
+                        - cell "Edit" [ref=e1755]:
+                          - generic [ref=e1756]:
+                            - button "Edit" [ref=e1757]
+                            - button [ref=e1758]:
+                              - img
+                      - row "Warehouse Staff Warehouse Staff 0 users Mar 26, 2026 Edit" [ref=e1759] [cursor=pointer]:
+                        - cell "Warehouse Staff" [ref=e1760]:
+                          - generic [ref=e1761]:
+                            - img [ref=e1763]
+                            - generic [ref=e1765]: Warehouse Staff
+                        - cell "Warehouse Staff" [ref=e1766]
+                        - cell "0 users" [ref=e1767]:
+                          - generic [ref=e1768]: 0 users
+                        - cell "Mar 26, 2026" [ref=e1769]
+                        - cell "Edit" [ref=e1770]:
+                          - generic [ref=e1771]:
+                            - button "Edit" [ref=e1772]
+                            - button [ref=e1773]:
+                              - img
+                      - row "Shelf Stocker Warehouse Staff 0 users Mar 26, 2026 Edit" [ref=e1774] [cursor=pointer]:
+                        - cell "Shelf Stocker" [ref=e1775]:
+                          - generic [ref=e1776]:
+                            - img [ref=e1778]
+                            - generic [ref=e1780]: Shelf Stocker
+                        - cell "Warehouse Staff" [ref=e1781]
+                        - cell "0 users" [ref=e1782]:
+                          - generic [ref=e1783]: 0 users
+                        - cell "Mar 26, 2026" [ref=e1784]
+                        - cell "Edit" [ref=e1785]:
+                          - generic [ref=e1786]:
+                            - button "Edit" [ref=e1787]
+                            - button [ref=e1788]:
+                              - img
+                      - row "General Staff Low (Limited) 0 users Apr 1, 2026 Edit" [ref=e1789] [cursor=pointer]:
+                        - cell "General Staff" [ref=e1790]:
+                          - generic [ref=e1791]:
+                            - img [ref=e1793]
+                            - generic [ref=e1795]: General Staff
+                        - cell "Low (Limited)" [ref=e1796]
+                        - cell "0 users" [ref=e1797]:
+                          - generic [ref=e1798]: 0 users
+                        - cell "Apr 1, 2026" [ref=e1799]
+                        - cell "Edit" [ref=e1800]:
+                          - generic [ref=e1801]:
+                            - button "Edit" [ref=e1802]
+                            - button [ref=e1803]:
+                              - img
+                      - row "System Administrator Owner / Full Access 2 users Apr 1, 2026 Edit" [ref=e1804] [cursor=pointer]:
+                        - cell "System Administrator" [ref=e1805]:
+                          - generic [ref=e1806]:
+                            - img [ref=e1808]
+                            - generic [ref=e1810]: System Administrator
+                        - cell "Owner / Full Access" [ref=e1811]
+                        - cell "2 users" [ref=e1812]:
+                          - generic [ref=e1813]: 2 users
+                        - cell "Apr 1, 2026" [ref=e1814]
+                        - cell "Edit" [ref=e1815]:
+                          - generic [ref=e1816]:
+                            - button "Edit" [ref=e1817]
+                            - button [ref=e1818]:
+                              - img
+                      - row "Sub Admin Sub Admins 1 user Apr 1, 2026 Edit" [ref=e1819] [cursor=pointer]:
+                        - cell "Sub Admin" [ref=e1820]:
+                          - generic [ref=e1821]:
+                            - img [ref=e1823]
+                            - generic [ref=e1825]: Sub Admin
+                        - cell "Sub Admins" [ref=e1826]
+                        - cell "1 user" [ref=e1827]:
+                          - generic [ref=e1828]: 1 user
+                        - cell "Apr 1, 2026" [ref=e1829]
+                        - cell "Edit" [ref=e1830]:
+                          - generic [ref=e1831]:
+                            - button "Edit" [active] [ref=e1832]
+                            - button [ref=e1833]:
+                              - img
+                - generic [ref=e1836]:
+                  - generic [ref=e1837]:
+                    - generic [ref=e1838]:
+                      - paragraph [ref=e1839]: Edit Role Permissions
+                      - heading "Sub Admin" [level=3] [ref=e1840]
+                    - button [ref=e1841] [cursor=pointer]:
+                      - img [ref=e1842]
+                  - generic [ref=e1845]:
+                    - button "Product Management" [ref=e1846] [cursor=pointer]:
+                      - generic [ref=e1848]: Product Management
+                    - button "Inventory Tracking" [ref=e1849] [cursor=pointer]:
+                      - generic [ref=e1851]: Inventory Tracking
+                    - button "Sales Management" [ref=e1852] [cursor=pointer]:
+                      - generic [ref=e1854]: Sales Management
+                    - button "Discounts & Alerts" [ref=e1855] [cursor=pointer]:
+                      - img [ref=e1857]
+                      - generic [ref=e1859]: Discounts & Alerts
+                    - button "Reports & Analytics" [ref=e1860] [cursor=pointer]:
+                      - generic [ref=e1862]: Reports & Analytics
+                    - button "User Control" [ref=e1863] [cursor=pointer]:
+                      - generic [ref=e1865]: User Control
+                  - button "Save Changes" [ref=e1866] [cursor=pointer]

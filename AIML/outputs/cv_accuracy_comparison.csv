@@ -1,0 +1,3 @@
+Model,Mean_CV_Accuracy,Std_CV_Accuracy
+Logistic Regression,0.7732,0.0029
+Random Forest (Tuned),0.9432,0.0018

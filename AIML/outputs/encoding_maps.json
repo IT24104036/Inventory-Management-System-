@@ -1,0 +1,21 @@
+{
+  "category_map": {
+    "Bakery": 0,
+    "Beverages": 1,
+    "Dairy": 2,
+    "Deli": 3,
+    "Frozen_Meals": 4,
+    "Meat": 5,
+    "Pharmaceuticals": 6,
+    "Produce": 7,
+    "Ready_to_Eat": 8,
+    "Seafood": 9
+  },
+  "region_map": {
+    "Midwest": 0,
+    "Northeast": 1,
+    "Southeast": 2,
+    "Southwest": 3,
+    "West": 4
+  }
+}

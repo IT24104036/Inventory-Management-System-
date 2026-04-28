@@ -1,0 +1,230 @@
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - complementary:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+            - generic: Invigo.
+          - generic:
+            - generic:
+              - generic: AD
+              - generic:
+                - paragraph: Owner View
+                - paragraph: "Status: Active"
+          - navigation:
+            - link:
+              - /url: /admin
+              - img
+              - generic: Dashboard
+            - link:
+              - /url: /admin/products
+              - img
+              - generic: Product Management
+            - link:
+              - /url: /admin/inventory
+              - img
+              - generic: Inventory Tracking
+            - link:
+              - /url: /admin/sales
+              - img
+              - generic: Sales Management
+            - link:
+              - /url: /admin/alerts
+              - img
+              - generic: Discounts & Alerts
+            - link:
+              - /url: /admin/reports
+              - img
+              - generic: Reports Analytics
+            - link:
+              - /url: /admin/users
+              - img
+              - generic: User Control
+          - generic:
+            - button:
+              - img
+              - text: Log Out Session
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - banner:
+              - generic:
+                - heading [level=1]: User Control
+            - main:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - tablist:
+                          - tab [selected]: Staff Governance
+                          - tab: Security & Activity
+                          - tab: Role Permissions
+                        - generic:
+                          - button: Onboard New Staff
+                      - tabpanel:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                                - textbox:
+                                  - /placeholder: Search by name or username...
+                              - combobox
+                            - generic:
+                              - generic:
+                                - generic: DOJ From
+                                - textbox
+                              - generic:
+                                - generic: DOJ To
+                                - textbox
+                          - generic:
+                            - generic:
+                              - generic:
+                                - table:
+                                  - rowgroup:
+                                    - row:
+                                      - columnheader:
+                                        - generic:
+                                          - text: Identity
+                                          - img
+                                      - columnheader:
+                                        - generic:
+                                          - text: Role
+                                          - img
+                                      - columnheader:
+                                        - generic:
+                                          - text: Entry Date
+                                          - img
+                                      - columnheader: Network Access
+                                  - rowgroup:
+                                    - row:
+                                      - cell:
+                                        - generic: DSM
+                                        - generic:
+                                          - paragraph: Demo Staff Member
+                                          - paragraph: "@staff"
+                                      - cell:
+                                        - generic: Cashier
+                                      - cell: Apr 1, 2026
+                                      - cell:
+                                        - generic:
+                                          - button:
+                                            - img
+                                          - button:
+                                            - img
+                                    - row:
+                                      - cell:
+                                        - generic: HR
+                                        - generic:
+                                          - paragraph: Hamna Rizve
+                                          - paragraph: "@Hamna"
+                                      - cell:
+                                        - generic: Cashier
+                                      - cell: Apr 1, 2026
+                                      - cell:
+                                        - generic:
+                                          - button:
+                                            - img
+                                          - button:
+                                            - img
+                                    - row:
+                                      - cell:
+                                        - generic: MMR
+                                        - generic:
+                                          - paragraph: Mr. Mohamed Rizwan
+                                          - paragraph: "@@cashier2"
+                                      - cell:
+                                        - generic: Cashier
+                                      - cell: Mar 18, 2026
+                                      - cell:
+                                        - generic:
+                                          - button:
+                                            - img
+                                          - button:
+                                            - img
+                                    - row:
+                                      - cell:
+                                        - generic: MRP
+                                        - generic:
+                                          - paragraph: Mr. Ruwan Perera
+                                          - paragraph: "@@admin"
+                                      - cell:
+                                        - generic: System Administrator
+                                      - cell: Mar 1, 2026
+                                      - cell
+                                    - row:
+                                      - cell:
+                                        - generic: S
+                                        - generic:
+                                          - paragraph: Sub
+                                          - paragraph: "@Subadmin"
+                                      - cell:
+                                        - generic: Sub Admin
+                                      - cell: Apr 1, 2026
+                                      - cell:
+                                        - generic:
+                                          - button:
+                                            - img
+                                          - button:
+                                            - img
+                                    - row:
+                                      - cell:
+                                        - generic: SA
+                                        - generic:
+                                          - paragraph: System Administrator
+                                          - paragraph: "@admin"
+                                      - cell:
+                                        - generic: System Administrator
+                                      - cell: Apr 1, 2026
+                                      - cell:
+                                        - generic:
+                                          - button:
+                                            - img
+  - dialog "Edit Staff Member" [ref=e2003]:
+    - generic [ref=e2004]:
+      - generic [ref=e2005]:
+        - heading "Edit Staff Member" [level=2] [ref=e2006]
+        - paragraph [ref=e2007]: Update system credentials and permissions
+      - generic [ref=e2008]:
+        - generic [ref=e2009]:
+          - generic [ref=e2010]:
+            - generic [ref=e2011]:
+              - generic [ref=e2012]: Full Name
+              - generic [ref=e2013]: 17/50
+            - textbox [active] [ref=e2014]: Demo Staff Member
+          - generic [ref=e2015]:
+            - text: Username
+            - textbox [ref=e2016]: staff
+        - generic [ref=e2017]:
+          - generic [ref=e2018]: Email Address (for password recovery)
+          - textbox "staff@example.com" [ref=e2019]
+        - generic [ref=e2020]:
+          - generic [ref=e2022]: New Password (leave blank to keep current)
+          - generic [ref=e2023]:
+            - textbox "Leave blank to keep current" [ref=e2024]
+            - button [ref=e2025] [cursor=pointer]:
+              - img [ref=e2026]
+        - generic [ref=e2029]:
+          - generic [ref=e2030]:
+            - text: Joining Date
+            - textbox [ref=e2031]: 2026-04-01
+          - generic [ref=e2032]:
+            - text: System Permissions / Role
+            - combobox [ref=e2033] [cursor=pointer]:
+              - generic: Cashier
+              - img [ref=e2034]
+            - combobox [ref=e2036]
+        - generic [ref=e2037]:
+          - button "Cancel" [ref=e2038] [cursor=pointer]
+          - button "Save Changes" [ref=e2039] [cursor=pointer]
+    - button "Close" [ref=e2040] [cursor=pointer]:
+      - img [ref=e2041]
+      - generic [ref=e2044]: Close

@@ -1,0 +1,13 @@
+Configuration,Mean_CV_ROC_AUC,Std_CV_ROC_AUC,Rank,n_estimators,max_depth,min_samples_split,min_samples_leaf
+n=300 | depth=None | split=2 | leaf=1,0.9884,0.0003,1,300,,2,1
+n=200 | depth=None | split=2 | leaf=1,0.9884,0.0004,2,200,,2,1
+n=200 | depth=None | split=5 | leaf=1,0.9882,0.0002,3,200,,5,1
+n=300 | depth=None | split=2 | leaf=2,0.9881,0.0002,4,300,,2,2
+n=200 | depth=20 | split=2 | leaf=1,0.9869,0.0002,5,200,20,2,1
+n=200 | depth=20 | split=5 | leaf=1,0.9869,0.0003,6,200,20,5,1
+n=300 | depth=20 | split=2 | leaf=2,0.9868,0.0003,7,300,20,2,2
+n=200 | depth=10 | split=2 | leaf=2,0.9699,0.0007,8,200,10,2,2
+n=300 | depth=10 | split=2 | leaf=2,0.9698,0.0007,9,300,10,2,2
+n=200 | depth=10 | split=2 | leaf=1,0.9697,0.001,10,200,10,2,1
+n=300 | depth=10 | split=2 | leaf=1,0.9695,0.001,11,300,10,2,1
+n=300 | depth=10 | split=5 | leaf=1,0.9695,0.0009,12,300,10,5,1

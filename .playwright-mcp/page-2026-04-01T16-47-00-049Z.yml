@@ -1,0 +1,122 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo.
+        - generic [ref=e12]:
+          - generic [ref=e13]: ST
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: staff
+            - paragraph [ref=e16]: Cashier
+        - navigation [ref=e17]:
+          - link "Staff Desk" [ref=e18] [cursor=pointer]:
+            - /url: /staff
+            - img [ref=e19]
+            - generic [ref=e24]: Staff Desk
+          - link "Product Management" [ref=e25] [cursor=pointer]:
+            - /url: /staff/products
+            - img [ref=e26]
+            - generic [ref=e30]: Product Management
+          - link "Inventory Tracking" [ref=e31] [cursor=pointer]:
+            - /url: /staff/inventory
+            - img [ref=e32]
+            - generic [ref=e35]: Inventory Tracking
+          - link "Sales Recording" [ref=e36] [cursor=pointer]:
+            - /url: /staff/sales
+            - img [ref=e37]
+            - generic [ref=e41]: Sales Recording
+          - link "Discounts & Alerts" [ref=e42] [cursor=pointer]:
+            - /url: /staff/alerts
+            - img [ref=e43]
+            - generic [ref=e46]: Discounts & Alerts
+          - link "Reports & Analytics" [ref=e47] [cursor=pointer]:
+            - /url: /staff/reports
+            - img [ref=e48]
+            - generic [ref=e50]: Reports & Analytics
+          - link "My Profile" [ref=e51] [cursor=pointer]:
+            - /url: /staff/profile
+            - img [ref=e52]
+            - generic [ref=e56]: My Profile
+        - button "Log Out Session" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Log Out Session
+    - generic [ref=e64]:
+      - generic:
+        - img
+      - generic [ref=e65]:
+        - banner [ref=e66]:
+          - heading "My Profile" [level=1] [ref=e68]
+        - main [ref=e69]:
+          - generic [ref=e72]:
+            - generic:
+              - img
+            - generic [ref=e75]:
+              - generic:
+                - img
+              - heading "MY PROFILE" [level=1] [ref=e76]
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic:
+                    - img
+                  - generic [ref=e101]:
+                    - generic [ref=e104]: DS
+                    - generic [ref=e105]:
+                      - heading "Demo Staff Member" [level=2] [ref=e106]
+                      - generic [ref=e107]:
+                        - paragraph [ref=e108]: "@staff"
+                        - generic [ref=e109]: Staff
+                      - paragraph [ref=e110]: Member since April 1, 2026
+                - generic [ref=e111]:
+                  - heading "Account Information" [level=3] [ref=e112]
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - paragraph [ref=e115]: Username
+                      - paragraph [ref=e116]: "@staff"
+                      - paragraph [ref=e117]: (Cannot be changed)
+                    - generic [ref=e118]:
+                      - paragraph [ref=e119]: Role
+                      - paragraph [ref=e120]: Staff
+                      - paragraph [ref=e121]: (Set by administrator)
+                    - generic [ref=e122]:
+                      - paragraph [ref=e123]: Date Joined
+                      - paragraph [ref=e124]: April 1, 2026
+                - generic [ref=e128]:
+                  - generic [ref=e129]:
+                    - heading "Display Name" [level=2] [ref=e130]
+                    - paragraph [ref=e131]: Update how your name appears across the system
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - generic [ref=e134]:
+                        - generic [ref=e135]: Full Name
+                        - generic [ref=e136]: 17/50
+                      - textbox "John Doe" [ref=e137]: Demo Staff Member
+                    - button "Save Name" [ref=e138] [cursor=pointer]
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - heading "Change Password" [level=2] [ref=e144]
+                    - paragraph [ref=e145]: Minimum 8 characters • Must differ from current password
+                  - generic [ref=e146]:
+                    - generic [ref=e147]:
+                      - text: Current Password
+                      - generic [ref=e148]:
+                        - textbox "Type current password" [ref=e149]
+                        - button [ref=e150] [cursor=pointer]:
+                          - img [ref=e151]
+                    - generic [ref=e154]:
+                      - generic [ref=e156]: New Password
+                      - generic [ref=e157]:
+                        - textbox "Min. 8 characters" [ref=e158]
+                        - button [ref=e159] [cursor=pointer]:
+                          - img [ref=e160]
+                    - generic [ref=e163]:
+                      - text: Confirm Password
+                      - generic [ref=e164]:
+                        - textbox "Confirm new password" [ref=e165]
+                        - button [ref=e166] [cursor=pointer]:
+                          - img [ref=e167]
+                    - button "Update Password" [disabled]

@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist_js
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+publish-IT24104036/
+publish-IT24103677/
+coverage
+AIML/__pycache__/
+AIML/.venv/
+AIML/outputs/random_forest_model.pkl
+Invigo/target/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

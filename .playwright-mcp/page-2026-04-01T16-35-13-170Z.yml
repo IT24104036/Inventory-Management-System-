@@ -1,0 +1,49 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Invigo Logo Invigo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Invigo Logo" [ref=e9]
+          - generic [ref=e10]: Invigo
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - text: Secure Recovery
+          - heading "Account Recovery" [level=2] [ref=e15]:
+            - text: Account
+            - text: Recovery
+          - paragraph [ref=e16]: We'll send a one-time code to your registered email to verify your identity and reset your password securely.
+      - generic [ref=e17]:
+        - img [ref=e101]
+        - generic [ref=e22]: "2"
+        - generic [ref=e25]: "3"
+        - generic [ref=e28]: "4"
+    - generic [ref=e30]:
+      - generic [ref=e104]:
+        - heading "Verify OTP" [level=1] [ref=e105]
+        - paragraph [ref=e106]: Enter the 6-digit code sent to hamnarizve25@gmail.com
+      - generic [ref=e107]:
+        - generic [ref=e137]: Invalid OTP. Please try again.
+        - generic [ref=e108]:
+          - textbox [ref=e109]: "1"
+          - textbox [ref=e110]: "2"
+          - textbox [ref=e111]: "3"
+          - textbox [ref=e112]: "4"
+          - textbox [ref=e113]: "5"
+          - textbox [ref=e114]: "6"
+        - button "Verify Code" [ref=e136] [cursor=pointer]:
+          - text: Verify Code
+          - img
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: Didn't receive the code?
+          - button "Resend OTP" [ref=e135] [cursor=pointer]:
+            - img [ref=e118]
+            - text: Resend OTP
+        - button "Change email" [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+          - text: Change email
+      - paragraph [ref=e50]: Powered by Invigo Gen3 Analytics
